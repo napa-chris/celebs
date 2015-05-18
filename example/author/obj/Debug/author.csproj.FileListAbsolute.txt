@@ -8,3 +8,13 @@ D:\alchemyapi_csharp\example\author\bin\Debug\sdk.pdb
 D:\alchemyapi_csharp\example\author\obj\Debug\author.csprojResolveAssemblyReference.cache
 D:\alchemyapi_csharp\example\author\obj\Debug\author.exe
 D:\alchemyapi_csharp\example\author\obj\Debug\author.pdb
+D:\celebs\example\author\bin\Debug\api_key.txt
+D:\celebs\example\author\bin\Debug\data\example.html
+D:\celebs\example\author\bin\Debug\data\microformats.html
+D:\celebs\example\author\bin\Debug\author.exe
+D:\celebs\example\author\bin\Debug\author.pdb
+D:\celebs\example\author\bin\Debug\sdk.dll
+D:\celebs\example\author\bin\Debug\sdk.pdb
+D:\celebs\example\author\obj\Debug\author.csprojResolveAssemblyReference.cache
+D:\celebs\example\author\obj\Debug\author.exe
+D:\celebs\example\author\obj\Debug\author.pdb

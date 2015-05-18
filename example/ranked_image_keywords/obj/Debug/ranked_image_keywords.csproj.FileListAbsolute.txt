@@ -1,1 +1,2 @@
 D:\alchemyapi_csharp\example\ranked_image_keywords\obj\Debug\ranked_image_keywords.csprojResolveAssemblyReference.cache
+D:\celebs\example\ranked_image_keywords\obj\Debug\ranked_image_keywords.csprojResolveAssemblyReference.cache

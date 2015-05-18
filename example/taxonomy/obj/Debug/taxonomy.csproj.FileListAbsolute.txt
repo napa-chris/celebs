@@ -6,3 +6,11 @@ D:\alchemyapi_csharp\example\taxonomy\bin\Debug\sdk.pdb
 D:\alchemyapi_csharp\example\taxonomy\obj\Debug\taxonomy.csprojResolveAssemblyReference.cache
 D:\alchemyapi_csharp\example\taxonomy\obj\Debug\taxonomy.exe
 D:\alchemyapi_csharp\example\taxonomy\obj\Debug\taxonomy.pdb
+D:\celebs\example\taxonomy\bin\Debug\data\example.html
+D:\celebs\example\taxonomy\bin\Debug\data\microformats.html
+D:\celebs\example\taxonomy\bin\Debug\taxo_api_key.txt
+D:\celebs\example\taxonomy\bin\Debug\sdk.dll
+D:\celebs\example\taxonomy\bin\Debug\sdk.pdb
+D:\celebs\example\taxonomy\obj\Debug\taxonomy.csprojResolveAssemblyReference.cache
+D:\celebs\example\taxonomy\obj\Debug\taxonomy.exe
+D:\celebs\example\taxonomy\obj\Debug\taxonomy.pdb

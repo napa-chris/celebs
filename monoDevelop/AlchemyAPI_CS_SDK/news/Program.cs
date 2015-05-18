@@ -16,10 +16,13 @@ namespace news
 
             AlchemyAPI_NewsParams prms = new AlchemyAPI_NewsParams();
             prms.setStartDate(5, 'd');
-            prms.setStartDate();
+            prms.setEndDate();
             string[] taxonomy = {"sports"};
             prms.addTaxonomy(taxonomy);
             string xml = alchemyObj.GetNews(prms);
+            
+            Console.WriteLine(xml);
+            Console.ReadLine();
         }
     }
 }
