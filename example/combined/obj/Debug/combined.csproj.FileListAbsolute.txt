@@ -1,0 +1,8 @@
+D:\alchemyapi_csharp\example\combined\bin\Debug\api_key.txt
+D:\alchemyapi_csharp\example\combined\bin\Debug\combined.exe
+D:\alchemyapi_csharp\example\combined\bin\Debug\combined.pdb
+D:\alchemyapi_csharp\example\combined\bin\Debug\sdk.dll
+D:\alchemyapi_csharp\example\combined\bin\Debug\sdk.pdb
+D:\alchemyapi_csharp\example\combined\obj\Debug\combined.csprojResolveAssemblyReference.cache
+D:\alchemyapi_csharp\example\combined\obj\Debug\combined.exe
+D:\alchemyapi_csharp\example\combined\obj\Debug\combined.pdb

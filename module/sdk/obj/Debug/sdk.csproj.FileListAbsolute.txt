@@ -1,0 +1,5 @@
+D:\alchemyapi_csharp\module\sdk\bin\Debug\sdk.dll
+D:\alchemyapi_csharp\module\sdk\bin\Debug\sdk.pdb
+D:\alchemyapi_csharp\module\sdk\obj\Debug\sdk.dll
+D:\alchemyapi_csharp\module\sdk\obj\Debug\sdk.pdb
+D:\alchemyapi_csharp\module\sdk\obj\Debug\sdk.csprojResolveAssemblyReference.cache

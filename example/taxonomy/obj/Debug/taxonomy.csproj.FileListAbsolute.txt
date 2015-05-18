@@ -1,0 +1,8 @@
+D:\alchemyapi_csharp\example\taxonomy\bin\Debug\data\example.html
+D:\alchemyapi_csharp\example\taxonomy\bin\Debug\data\microformats.html
+D:\alchemyapi_csharp\example\taxonomy\bin\Debug\taxo_api_key.txt
+D:\alchemyapi_csharp\example\taxonomy\bin\Debug\sdk.dll
+D:\alchemyapi_csharp\example\taxonomy\bin\Debug\sdk.pdb
+D:\alchemyapi_csharp\example\taxonomy\obj\Debug\taxonomy.csprojResolveAssemblyReference.cache
+D:\alchemyapi_csharp\example\taxonomy\obj\Debug\taxonomy.exe
+D:\alchemyapi_csharp\example\taxonomy\obj\Debug\taxonomy.pdb

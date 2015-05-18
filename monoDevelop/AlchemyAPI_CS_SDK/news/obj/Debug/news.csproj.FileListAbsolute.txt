@@ -1,0 +1,8 @@
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\bin\Debug\news.exe.config
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\bin\Debug\news.exe
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\bin\Debug\news.pdb
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\bin\Debug\sdk.dll
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\bin\Debug\sdk.pdb
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\obj\Debug\news.csprojResolveAssemblyReference.cache
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\obj\Debug\news.exe
+D:\alchemyapi_csharp\monoDevelop\AlchemyAPI_CS_SDK\news\obj\Debug\news.pdb
