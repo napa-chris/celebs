@@ -854,6 +854,7 @@ namespace AlchemyAPI
             return DoRequest(wreq, parameters.getOutputMode());
         }
         #endregion
+
         private void CheckHTML(string html, string url)
         {
             if (html.Length < 10)

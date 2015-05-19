@@ -39,8 +39,9 @@ namespace AlchemyAPI
         private ScoreEquality _scoreEquality;
         private string _sentimentTypeString;
         private string _sentimentScoreEquality;
-        private string startDate;
-        private string endDate;
+        private string _startDate;
+        private string _endDate;
+        private int? _count;
 
         public AlchemyAPI_NewsParams()
         {
@@ -51,6 +52,7 @@ namespace AlchemyAPI
             _entityType = new List<string>();
             _relations = new List<string>();
         }
+
         public void addTaxonomy(string[] s)
         {
             foreach(var str in s)
@@ -58,32 +60,48 @@ namespace AlchemyAPI
                 _taxonomy.Add(str);
             }
         }
+        public void addEntityText(string[] s)
+        {
+            foreach (var str in s)
+            {
+                _entityText.Add(str);
+            }
+        }
+
+        public void setCount(int c)
+        {
+            _count = c;
+        }
         public void setStartDate(int amount = 0, char dateType = 'd')
         {
             if (amount > 0)
             {
-                startDate = "&start=now-" + amount + dateType;
+                _startDate = "&start=now-" + amount + dateType;
             }
             else
             {
-                endDate = "&start=now";
+                _endDate = "&start=now";
             }
         }
         public void setEndDate(int amount = 0, char dateType = 'd')
         {
             if (amount > 0)
             {
-                endDate = "&end=now-" + amount + dateType;
+                _endDate = "&end=now-" + amount + dateType;
             }
             else
             {
-                endDate = "&end=now";            
+                _endDate = "&end=now";            
             }
         }
 
         public override String getParameterString()
         {
             String retString = base.getParameterString();
+            if(_count != 0 || _count != null)
+            {
+                retString += "&count=" + _count.ToString();
+            }
             if (_taxonomy.Count > 0)
             {
                 retString += TAXONOMY_LABEL + string.Join("+", _taxonomy.ToArray());
@@ -112,7 +130,7 @@ namespace AlchemyAPI
             {
                 retString += SENTIMENT + "|" + _sentimentType + "score=" + _sentimentScoreEquality + _sentiment + "|";                
             }
-            retString += startDate + endDate;
+            retString += _startDate + _endDate;
             return retString;
         }
     }

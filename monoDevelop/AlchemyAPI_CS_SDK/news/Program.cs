@@ -15,10 +15,13 @@ namespace news
             alchemyObj.SetAPIKey("6b5aa8499e9a98215e57cf2ef6a0456654be777b");
 
             AlchemyAPI_NewsParams prms = new AlchemyAPI_NewsParams();
-            prms.setStartDate(5, 'd');
+            prms.setStartDate(30, 'd');
             prms.setEndDate();
-            string[] taxonomy = {"sports"};
+            string[] taxonomy = { "books" };
+            string[] entityText = { "apple" };
             prms.addTaxonomy(taxonomy);
+            prms.addEntityText(entityText);
+            prms.setCount(10);
             string xml = alchemyObj.GetNews(prms);
             
             Console.WriteLine(xml);
